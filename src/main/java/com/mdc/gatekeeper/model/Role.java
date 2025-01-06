@@ -1,4 +1,4 @@
 package com.mdc.gatekeeper.model;
 
-public class Role {
+public record Role(int roleId,String roleName) {
 }

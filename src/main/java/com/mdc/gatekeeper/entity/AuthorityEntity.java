@@ -6,8 +6,6 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.xml.bind.annotation.XmlID;
-
 @Entity
 @Getter
 @Setter

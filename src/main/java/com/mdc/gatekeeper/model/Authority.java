@@ -1,4 +1,4 @@
 package com.mdc.gatekeeper.model;
 
-public class Authority {
+public record Authority(int authorityId, String authority) {
 }
